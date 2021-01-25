@@ -1,0 +1,11 @@
+version: "3.2"
+services:
+  json-server:
+    image: dewdsp/json-server
+    command: -H 0.0.0.0 -p 3000 -w db.json -r routes.json
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./data/db.json:/data/db.json
+      - ./data/routes.json:/data/routes.json
+    restart: always
