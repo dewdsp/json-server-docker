@@ -1,8 +1,9 @@
 # json-server-docker
 [json-server](https://github.com/typicode/json-server) running in a Docker container.
 
-original from: https://github.com/vimagick/dockerfiles Thank you for his works.
-add routes.json
+Forked from https://github.com/vimagick/dockerfiles Thank you for his works.
+
+I just add routes.json
 
 ## Features:
 - [Tini](https://github.com/krallin/tini) init system
